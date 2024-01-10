@@ -29,7 +29,7 @@ inline void writeMemory(const uintptr_t address, const std::vector<BYTE> toWrite
 
 void Main(const HMODULE hModule) {
     AllocConsole();
-    SetConsoleTitleA("UEFN Unlocker by gamerbross v1.1");
+    SetConsoleTitleA("UEFN Unlocker by gamerbross v1.1 among us");
     FILE* pFile;
     freopen_s(&pFile, ("CONOUT$"), "w", stdout);
 
